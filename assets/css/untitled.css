@@ -1,0 +1,266 @@
+.btn-primary,.btn-primary:visited,.btn-primary:focus {
+  background-color: green !important;
+  color: white!important;
+  border: white!important;
+  box-shadow: none !important;
+}
+
+.btn-primary:hover{
+  background-color: white !important;
+  color: green !important;
+  border: green !important;
+  box-shadow: none !important;
+}
+
+.navbar {
+  background-color: black!important;
+}
+
+.dropdown-item:active {
+  background-color: green!important;
+}
+
+#work{
+
+}
+body{
+  width: 100vw !important;
+
+}
+.cim{
+  text-align: center;
+}
+div{
+  text-align: justify;
+}
+h2{
+  text-align: center;
+  padding: 2em;
+
+}
+img{
+text-align: center !important;
+}
+.egs{
+  background-color: green;
+  color:white;
+}
+#reg{
+  padding-top: 0 !important;
+  margin-bottom: 1em;
+}
+#Health{
+  padding-top: 1em !important;
+}
+h3{
+  text-align: center;
+  padding:2em;
+}
+#link{
+  text-align: center;
+  text-decoration: none !important;
+  color: white !important;
+}
+#link:visited,#link:hover,#link:focus,#link:active{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  text-transform: uppercase !important;
+  text-align: center !important;
+  font-size: 13px!important;
+  text-decoration: none!important;
+  background: white!important;
+  color: black!important;
+  transition: 0.3s ease!important;
+  border-top: 4px solid #FFFFFF!important;
+  border-bottom: 4px solid #FFFFFF!important;
+  padding: 20px 0!important;
+  margin: 0 20px!important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  border-top: 4px solid #000000!important;
+  border-bottom: 4px solid #000000!important;
+  padding: 6px !important;
+  background: #11ADE8!important;
+}
+#test{
+  width: 100vw;
+
+}
+
+
+
+section{
+  margin-top: 10px!important;
+}
+html {
+  scroll-behavior: smooth!important;
+}
+.kep{
+  height:450px;
+  width: 250px;
+
+
+}
+
+.kep2{
+  height:450px;
+  width: 300px;
+
+}
+hr{
+  border: 5px solid green;
+  border-radius: 20px;
+  opacity: 100!important;
+
+}
+
+
+.card {
+  width: max-content;
+  text-align: center !important;
+  margin: 0.1em;
+  border: 3px solid black !important;
+}
+#harom{
+  text-align: center;
+width: max-content;
+  height: fit-content;
+}
+.card div{
+  text-align-all: center;
+  padding: 1em;
+}
+
+@media(device-width: 1200px) {
+
+  .dropdown:hover > .dropdown-menu {
+    display: block !important;
+  }
+
+  .dropdown > .dropdown-toggle:active {
+    pointer-events: none !important;
+
+  }
+}
+#svG{
+  width: 100vw;
+  height: max-content;
+
+
+}
+.svg-container{
+  background-color: green;
+}
+.mester{
+  width: 20em;
+  height: 25em;
+}
+#school {
+  background-color: green !important;
+  color: white !important;
+
+}
+header.masthead{
+  background-image: url("../img/CsoportOk.jpeg")  !important;
+  height: 85vh;
+
+
+}
+#home{
+  font: 800 60px Arial;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  padding: 0;
+}
+#home2{
+  font-family: Arial;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  padding: 0;
+  vertical-align: center;
+}
+.kepke{
+  width: 30vw;
+  height: 60vh;
+
+}
+.parallax{
+
+  height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media only screen and(max-device-width: 1366px) {
+    .parallax{
+      background-attachment: scroll;
+    }
+
+  }
+}
+section>.container{
+  padding: 1em;
+}
+.cim{
+  text-align: center;
+  vertical-align: center;
+  font-size: 24pt;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+
+}
+.flag{
+  width: 60px;
+  height: 30px;
+}
+footer{
+  font-size: larger;
+}
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height:100%;
+  overflow: auto;
+  background-color:black;
+  background-color: rgba(0,0,0,0.4) ;
+
+}
+.modal-content{
+  background-color: white;
+  margin: 15% auto;
+  padding:20px ;
+  border: 2px solid green;
+  width: 80%;
+}
+.close{
+  color: grey;
+  float: right !important;
+  font-size: 28px;
+  font-weight: bold;
+  width: 1em;
+
+}
+.close:hover,.close:focus{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#mester{
+  width: 100%;
+}
